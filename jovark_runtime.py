@@ -22,6 +22,8 @@ openingMessage = 'Welcome to the Jovark Helper Bot. Enter your commands in below
 currentcommand = ''
 rand = ''
 print(openingMessage)
+def start()
+    return
 currentcommand = input('>>>J$: ')
 now = datetime.now()
 username = getpass.getuser()
@@ -34,6 +36,7 @@ if "time" in currentcommand:
 if "What time is it" in currentcommand:
     print ("Current time:")
     print ("Current time:", time.strftime("%m/%d/%Y, %H:%M:%S"))
+    start()
 
 # displays a randomly selected greeting from predefined list of 8 values
 if "Hi" in currentcommand:
@@ -42,15 +45,19 @@ if "Hi" in currentcommand:
 # 1 Greeting
         if rand == 1:
             print("Hello!")
+            start()
 # 2 Greeting
         if rand == 2:
             print("Hi!")
+            start()
 # 3 Greeting
         if rand == 3:
             print("Hello", + 'username')
+            start()
 # 4 Greeting
         if rand == 4:
-
             print ("Hi!")
+            start()
         else:
             print("Greetings")
+            start()
