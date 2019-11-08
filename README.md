@@ -5,4 +5,5 @@ Features include:
 <li>Date and Time</li>
 <li>Greetings</li>
 <li>More to come!....</li>
+  <li>Email</li>
 </ul>
