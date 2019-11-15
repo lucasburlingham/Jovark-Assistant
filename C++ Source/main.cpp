@@ -29,7 +29,7 @@ int email ();
 int entry()
 {
 	cin << "J$ ", currentCommand;
-	evaluation();
+	evaluation(currentCommand);
 }
 
 int evaluation(currentCommand);
@@ -41,6 +41,12 @@ int evaluation(currentCommand);
 	
 	case 'Hi':
 	cout << "Hello!";
+	break;
+	
+	case 'What time is it' or 'what time is it?' or 'What time is it?' 'time' or 'Time' or 'tiem'
+		auto timenow = 
+	chrono::system_clock::to_time_t(chrono::system_clock::now()); 
+	cout << ctime(&timenow) << endl;
 	break;
 	
 	default:
